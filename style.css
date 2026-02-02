@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    text-align: center;
+    color: #c2185b;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #c2185b;
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+}
+
+/* Section Headings */
+section h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* Pinterest-Style Pin Grid */
+section div {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+/* Pins */
+section img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.03);
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 25px;
+    max-width: 900px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    color: #777;
+    margin-top: 40px;
+}
