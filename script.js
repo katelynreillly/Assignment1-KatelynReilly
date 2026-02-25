@@ -1,1 +1,3 @@
-alert("Welcome to my creative boards! Each pin represents a project, idea, or experiment that showcases my skills.");
+window.onload = function() {
+    alert("✨ New projects have been added to my boards! Scroll to explore my latest marketing and tech work.");
+};
