@@ -124,3 +124,41 @@ footer {
     padding: 20px;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
 }
+/* Default Light Theme */
+body {
+    transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #1e1e2f;
+    color: #f5f5f5;
+}
+
+.dark-mode header {
+    background-color: #2c2c3e;
+}
+
+.dark-mode footer {
+    background-color: #2c2c3e;
+}
+
+.dark-mode nav ul li a {
+    color: #f5f5f5;
+}
+
+.dark-mode section h2 {
+    color: #ff9fb5;
+}
+
+/* Theme Button */
+#themeBtn {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: #ff85a2;
+    font-weight: bold;
+}
